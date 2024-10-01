@@ -53,6 +53,8 @@ public class ModBlocks {
 			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
 	public static final Block PURPLE_SLIME_BLOCK = registerBlock("purple_slime_block",
 			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+	public static final Block BLUE_SLIME_BLOCK = registerBlock("blue_slime_block",
+			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
 	
 	
 	// helper methods
