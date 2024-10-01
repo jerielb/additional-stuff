@@ -35,6 +35,7 @@ public class Additions implements ModInitializer {
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_SLIME_BLOCK, RenderLayer.getTranslucent());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_SLIME_BLOCK, RenderLayer.getTranslucent());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_SLIME_BLOCK, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_SLIME_BLOCK, RenderLayer.getTranslucent());
 		
 		// fuel
 		FuelRegistry.INSTANCE.add(ModBlocks.CHARCOAL_BLOCK, 16000);
