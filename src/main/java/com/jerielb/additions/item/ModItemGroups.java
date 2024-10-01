@@ -45,6 +45,7 @@ public class ModItemGroups {
 						entries.add(ModBlocks.YELLOW_SLIME_BLOCK);
 						entries.add(ModBlocks.ORANGE_SLIME_BLOCK);
 						entries.add(ModBlocks.BROWN_SLIME_BLOCK);
+						entries.add(ModBlocks.BLACK_SLIME_BLOCK);
 					})
 					.build());
 	
