@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "slime",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_dye"
+    },
+    [
+      {
+        "item": "minecraft:slime_block"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "additions:blue_slime_block"
+  }
+}

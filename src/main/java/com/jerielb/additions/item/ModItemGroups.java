@@ -33,6 +33,22 @@ public class ModItemGroups {
 					.entries((displayContext, entries) -> {
 						// add blocks
 						entries.add(ModBlocks.CHARCOAL_BLOCK);
+						
+						entries.add(ModBlocks.RED_SLIME_BLOCK);
+						entries.add(ModBlocks.PINK_SLIME_BLOCK);
+						entries.add(ModBlocks.MAGENTA_SLIME_BLOCK);
+						entries.add(ModBlocks.PURPLE_SLIME_BLOCK);
+						entries.add(ModBlocks.BLUE_SLIME_BLOCK);
+						entries.add(ModBlocks.LIGHT_BLUE_SLIME_BLOCK);
+						entries.add(ModBlocks.CYAN_SLIME_BLOCK);
+						entries.add(ModBlocks.GREEN_SLIME_BLOCK);
+						entries.add(ModBlocks.YELLOW_SLIME_BLOCK);
+						entries.add(ModBlocks.ORANGE_SLIME_BLOCK);
+						entries.add(ModBlocks.BROWN_SLIME_BLOCK);
+						entries.add(ModBlocks.BLACK_SLIME_BLOCK);
+						entries.add(ModBlocks.GRAY_SLIME_BLOCK);
+						entries.add(ModBlocks.LIGHT_GRAY_SLIME_BLOCK);
+						entries.add(ModBlocks.WHITE_SLIME_BLOCK);
 					})
 					.build());
 	
