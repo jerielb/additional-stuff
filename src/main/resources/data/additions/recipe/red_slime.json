@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "slime",
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    [
+      {
+        "item": "minecraft:slime_block"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "additions:red_slime_block"
+  }
+}

@@ -20,6 +20,7 @@ public class Additions implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		
 		ModBlocks.registerModBlocks();
+		// slime blocks
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RED_SLIME_BLOCK, RenderLayer.getTranslucent());
 		
 		// fuel
