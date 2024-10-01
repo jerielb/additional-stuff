@@ -36,6 +36,7 @@ public class ModItemGroups {
 						
 						entries.add(ModBlocks.RED_SLIME_BLOCK);
 						entries.add(ModBlocks.PINK_SLIME_BLOCK);
+						entries.add(ModBlocks.MAGENTA_SLIME_BLOCK);
 					})
 					.build());
 	

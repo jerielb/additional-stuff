@@ -2,6 +2,7 @@
   "values": [
     "minecraft:slime_block",
     "additions:red_slime_block",
-    "additions:pink_slime_block"
+    "additions:pink_slime_block",
+    "additions:magenta_slime_block"
   ]
 }
