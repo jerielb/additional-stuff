@@ -33,7 +33,9 @@ public class ModItemGroups {
 					.entries((displayContext, entries) -> {
 						// add blocks
 						entries.add(ModBlocks.CHARCOAL_BLOCK);
+						
 						entries.add(ModBlocks.RED_SLIME_BLOCK);
+						entries.add(ModBlocks.PINK_SLIME_BLOCK);
 					})
 					.build());
 	
