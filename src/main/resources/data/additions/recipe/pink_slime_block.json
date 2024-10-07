@@ -1,19 +1,20 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "group": "slime",
-  "ingredients": [
-    {
-      "item": "minecraft:pink_dye"
-    },
-    [
-      {
-        "item": "minecraft:slime_block"
-      }
-    ]
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:slime_block"
+    },
+    "D": {
+      "item": "minecraft:pink_dye"
+    }
+  },
   "result": {
-    "count": 1,
-    "id": "additions:pink_slime_block"
+    "id": "additions:pink_slime_block",
+    "count": 8
   }
 }
