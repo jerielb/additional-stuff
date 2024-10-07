@@ -3,6 +3,7 @@ package com.jerielb.additions.block;
 import com.jerielb.additions.Additions;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
 import net.minecraft.block.SlimeBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -46,7 +47,7 @@ public class ModBlocks {
 	
 	// custom block
 	public static final Block RED_SLIME_BLOCK = registerBlock("red_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.RED).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block PINK_SLIME_BLOCK = registerBlock("pink_slime_block",
 			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
 	public static final Block MAGENTA_SLIME_BLOCK = registerBlock("magenta_slime_block",
