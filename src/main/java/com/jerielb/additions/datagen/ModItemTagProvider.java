@@ -22,6 +22,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 	@Override
 	protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 		getOrCreateTagBuilder(ItemTags.SWORDS)
-				.add(ModItems.KINGDOM_KEY);
+				.add(ModItems.KINGDOM_KEY)
+				.add(ModItems.JUNGLE_KING);
 	}
 }

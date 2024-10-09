@@ -27,5 +27,6 @@ public class ModModelProvider extends FabricModelProvider {
 	@Override
 	public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 		itemModelGenerator.register(ModItems.KINGDOM_KEY, Models.HANDHELD);
+		itemModelGenerator.register(ModItems.JUNGLE_KING, Models.HANDHELD);
 	}
 }
