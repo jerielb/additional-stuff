@@ -35,5 +35,6 @@ public class ModModelProvider extends FabricModelProvider {
 		itemModelGenerator.register(ModItems.WISHING_STAR, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.SPELLBINDER, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.METAL_CHOCOBO, Models.HANDHELD);
+		itemModelGenerator.register(ModItems.OLYMPIA, Models.HANDHELD);
 	}
 }

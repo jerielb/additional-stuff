@@ -29,6 +29,7 @@ public class ModItemGroups {
 						entries.add(ModItems.WISHING_STAR);
 						entries.add(ModItems.SPELLBINDER);
 						entries.add(ModItems.METAL_CHOCOBO);
+						entries.add(ModItems.OLYMPIA);
 					})
 					.build());
 	
