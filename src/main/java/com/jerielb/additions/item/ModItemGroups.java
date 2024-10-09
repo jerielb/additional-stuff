@@ -32,6 +32,7 @@ public class ModItemGroups {
 						entries.add(ModItems.OLYMPIA);
 						entries.add(ModItems.LIONHEART);
 						entries.add(ModItems.OATHKEEPER);
+						entries.add(ModItems.OBLIVION);
 					})
 					.build());
 	
