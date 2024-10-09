@@ -34,6 +34,7 @@ public class ModItemGroups {
 						entries.add(ModItems.OATHKEEPER);
 						entries.add(ModItems.OBLIVION);
 						entries.add(ModItems.LADY_LUCK);
+						entries.add(ModItems.DIVINE_ROSE);
 					})
 					.build());
 	
