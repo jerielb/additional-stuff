@@ -36,6 +36,7 @@ public class ModItemGroups {
 						entries.add(ModItems.LADY_LUCK);
 						entries.add(ModItems.DIVINE_ROSE);
 						entries.add(ModItems.DIAMOND_DUST);
+						entries.add(ModItems.ONE_WINGED_ANGEL);
 					})
 					.build());
 	
