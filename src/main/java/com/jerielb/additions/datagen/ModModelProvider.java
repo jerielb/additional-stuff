@@ -44,5 +44,6 @@ public class ModModelProvider extends FabricModelProvider {
 		itemModelGenerator.register(ModItems.DIAMOND_DUST, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.ONE_WINGED_ANGEL, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.ULTIMA_WEAPON, Models.HANDHELD);
+		itemModelGenerator.register(ModItems.KINGDOM_KEY_DARKSIDE, Models.HANDHELD);
 	}
 }
