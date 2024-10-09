@@ -24,6 +24,7 @@ public class ModItemGroups {
 						entries.add(ModItems.JUNGLE_KING);
 						entries.add(ModItems.THREE_WISHES);
 						entries.add(ModItems.CRAB_CLAW);
+						entries.add(ModItems.PUMPKINHEAD);
 					})
 					.build());
 	

@@ -30,5 +30,6 @@ public class ModModelProvider extends FabricModelProvider {
 		itemModelGenerator.register(ModItems.JUNGLE_KING, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.THREE_WISHES, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.CRAB_CLAW, Models.HANDHELD);
+		itemModelGenerator.register(ModItems.PUMPKINHEAD, Models.HANDHELD);
 	}
 }

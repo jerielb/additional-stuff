@@ -25,6 +25,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 				.add(ModItems.KINGDOM_KEY)
 				.add(ModItems.JUNGLE_KING)
 				.add(ModItems.THREE_WISHES)
-				.add(ModItems.CRAB_CLAW);
+				.add(ModItems.CRAB_CLAW)
+				.add(ModItems.PUMPKINHEAD);
 	}
 }
