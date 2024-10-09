@@ -2,12 +2,10 @@ package com.jerielb.additions;
 
 import com.jerielb.additions.block.ModBlocks;
 import com.jerielb.additions.item.ModItemGroups;
+import com.jerielb.additions.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +17,7 @@ public class Additions implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		
+		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		
 		// fuel
