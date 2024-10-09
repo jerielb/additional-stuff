@@ -32,6 +32,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 				.add(ModItems.SPELLBINDER)
 				.add(ModItems.METAL_CHOCOBO)
 				.add(ModItems.OLYMPIA)
-				.add(ModItems.LIONHEART);
+				.add(ModItems.LIONHEART)
+				.add(ModItems.OATHKEEPER);
 	}
 }
