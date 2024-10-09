@@ -38,6 +38,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 				.add(ModItems.LADY_LUCK)
 				.add(ModItems.DIVINE_ROSE)
 				.add(ModItems.DIAMOND_DUST)
-				.add(ModItems.ONE_WINGED_ANGEL);
+				.add(ModItems.ONE_WINGED_ANGEL)
+				.add(ModItems.ULTIMA_WEAPON);
 	}
 }

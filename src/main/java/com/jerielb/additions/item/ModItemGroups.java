@@ -37,6 +37,7 @@ public class ModItemGroups {
 						entries.add(ModItems.DIVINE_ROSE);
 						entries.add(ModItems.DIAMOND_DUST);
 						entries.add(ModItems.ONE_WINGED_ANGEL);
+						entries.add(ModItems.ULTIMA_WEAPON);
 					})
 					.build());
 	
