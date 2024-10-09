@@ -30,6 +30,7 @@ public class ModItemGroups {
 						entries.add(ModItems.SPELLBINDER);
 						entries.add(ModItems.METAL_CHOCOBO);
 						entries.add(ModItems.OLYMPIA);
+						entries.add(ModItems.LIONHEART);
 					})
 					.build());
 	
