@@ -33,5 +33,6 @@ public class ModModelProvider extends FabricModelProvider {
 		itemModelGenerator.register(ModItems.PUMPKINHEAD, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.FAIRY_HARP, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.WISHING_STAR, Models.HANDHELD);
+		itemModelGenerator.register(ModItems.SPELLBINDER, Models.HANDHELD);
 	}
 }

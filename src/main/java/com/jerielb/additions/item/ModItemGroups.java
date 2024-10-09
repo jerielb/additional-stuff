@@ -27,6 +27,7 @@ public class ModItemGroups {
 						entries.add(ModItems.PUMPKINHEAD);
 						entries.add(ModItems.FAIRY_HARP);
 						entries.add(ModItems.WISHING_STAR);
+						entries.add(ModItems.SPELLBINDER);
 					})
 					.build());
 	
