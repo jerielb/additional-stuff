@@ -20,7 +20,7 @@ public class ModItemGroups {
 					.displayName(Text.translatable("itemgroup.additions.additional_items")) // to be changed in /lang/en_us.json
 					.entries((displayContext, entries) -> {
 						// add items
-//						entries.add(ModItems.<ITEM>);
+						entries.add(ModItems.KINGDOM_KEY);
 					})
 					.build());
 	
