@@ -41,5 +41,6 @@ public class ModModelProvider extends FabricModelProvider {
 		itemModelGenerator.register(ModItems.OBLIVION, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.LADY_LUCK, Models.HANDHELD);
 		itemModelGenerator.register(ModItems.DIVINE_ROSE, Models.HANDHELD);
+		itemModelGenerator.register(ModItems.DIAMOND_DUST, Models.HANDHELD);
 	}
 }
