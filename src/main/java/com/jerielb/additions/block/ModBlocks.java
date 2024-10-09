@@ -3,6 +3,7 @@ package com.jerielb.additions.block;
 import com.jerielb.additions.Additions;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
 import net.minecraft.block.SlimeBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -46,35 +47,35 @@ public class ModBlocks {
 	
 	// custom block
 	public static final Block RED_SLIME_BLOCK = registerBlock("red_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.RED).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block PINK_SLIME_BLOCK = registerBlock("pink_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.PINK).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block MAGENTA_SLIME_BLOCK = registerBlock("magenta_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.MAGENTA).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block PURPLE_SLIME_BLOCK = registerBlock("purple_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.PURPLE).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block BLUE_SLIME_BLOCK = registerBlock("blue_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.BLUE).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block LIGHT_BLUE_SLIME_BLOCK = registerBlock("light_blue_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block CYAN_SLIME_BLOCK = registerBlock("cyan_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.CYAN).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block GREEN_SLIME_BLOCK = registerBlock("green_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.GREEN).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block YELLOW_SLIME_BLOCK = registerBlock("yellow_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block ORANGE_SLIME_BLOCK = registerBlock("orange_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.ORANGE).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block BROWN_SLIME_BLOCK = registerBlock("brown_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.BROWN).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block BLACK_SLIME_BLOCK = registerBlock("black_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block GRAY_SLIME_BLOCK = registerBlock("gray_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.GRAY).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block LIGHT_GRAY_SLIME_BLOCK = registerBlock("light_gray_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_GRAY).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	public static final Block WHITE_SLIME_BLOCK = registerBlock("white_slime_block",
-			new SlimeBlock(AbstractBlock.Settings.create().nonOpaque()));
+			new SlimeBlock(AbstractBlock.Settings.create().mapColor(MapColor.WHITE).slipperiness(0.8F).sounds(BlockSoundGroup.SLIME).nonOpaque()));
 	
 	
 	// helper methods
