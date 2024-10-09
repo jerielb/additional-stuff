@@ -29,6 +29,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 				.add(ModItems.PUMPKINHEAD)
 				.add(ModItems.FAIRY_HARP)
 				.add(ModItems.WISHING_STAR)
-				.add(ModItems.SPELLBINDER);
+				.add(ModItems.SPELLBINDER)
+				.add(ModItems.METAL_CHOCOBO);
 	}
 }
