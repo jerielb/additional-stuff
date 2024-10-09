@@ -21,6 +21,7 @@ public class ModItemGroups {
 					.entries((displayContext, entries) -> {
 						// add items
 						entries.add(ModItems.KINGDOM_KEY);
+						entries.add(ModItems.JUNGLE_KING);
 					})
 					.build());
 	

@@ -23,6 +23,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 	protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 		// tags for custom tools & weapons to have the correct enchantments
 		getOrCreateTagBuilder(ItemTags.SWORDS)
-				.add(ModItems.KINGDOM_KEY);
+				.add(ModItems.KINGDOM_KEY)
+				.add(ModItems.JUNGLE_KING);
 	}
 }
