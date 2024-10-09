@@ -18,6 +18,9 @@
 		"main": [
 			"com.jerielb.additions.Additions"
 		],
+		"client": [
+			"com.jerielb.additions.AdditionsClient"
+		],
 		"fabric-datagen": [
 			"com.jerielb.additions.AdditionsDataGenerator"
 		]
