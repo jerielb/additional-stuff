@@ -23,6 +23,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 	protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 		getOrCreateTagBuilder(ItemTags.SWORDS)
 				.add(ModItems.KINGDOM_KEY)
-				.add(ModItems.JUNGLE_KING);
+				.add(ModItems.JUNGLE_KING)
+				.add(ModItems.THREE_WISHES);
 	}
 }

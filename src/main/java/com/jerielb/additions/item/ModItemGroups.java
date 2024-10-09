@@ -22,6 +22,7 @@ public class ModItemGroups {
 						// add items
 						entries.add(ModItems.KINGDOM_KEY);
 						entries.add(ModItems.JUNGLE_KING);
+						entries.add(ModItems.THREE_WISHES);
 					})
 					.build());
 	
