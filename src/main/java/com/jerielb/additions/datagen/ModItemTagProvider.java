@@ -40,6 +40,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 				.add(ModItems.DIAMOND_DUST)
 				.add(ModItems.ONE_WINGED_ANGEL)
 				.add(ModItems.ULTIMA_WEAPON)
-				.add(ModItems.KINGDOM_KEY_DARKSIDE);
+				.add(ModItems.KINGDOM_KEY_DARKSIDE)
+				.add(ModItems.SOUL_EATER);
 	}
 }
