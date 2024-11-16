@@ -23,7 +23,7 @@ public class ModItemGroups {
 						entries.add(ModItems.KINGDOM_KEY);
 						entries.add(ModItems.JUNGLE_KING);
 						entries.add(ModItems.THREE_WISHES);
-						entries.add(ModItems.CRAB_CLAW);
+						entries.add(ModItems.CRABCLAW);
 						entries.add(ModItems.PUMPKINHEAD);
 						entries.add(ModItems.FAIRY_HARP);
 						entries.add(ModItems.WISHING_STAR);
