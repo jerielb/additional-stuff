@@ -20,26 +20,6 @@ public class ModItemGroups {
 					.displayName(Text.translatable("itemgroup.additions.additional_items")) // to be changed in /lang/en_us.json
 					.entries((displayContext, entries) -> {
 						// add items
-						entries.add(ModItems.KINGDOM_KEY);
-						entries.add(ModItems.JUNGLE_KING);
-						entries.add(ModItems.THREE_WISHES);
-						entries.add(ModItems.CRABCLAW);
-						entries.add(ModItems.PUMPKINHEAD);
-						entries.add(ModItems.FAIRY_HARP);
-						entries.add(ModItems.WISHING_STAR);
-						entries.add(ModItems.SPELLBINDER);
-						entries.add(ModItems.METAL_CHOCOBO);
-						entries.add(ModItems.OLYMPIA);
-						entries.add(ModItems.LIONHEART);
-						entries.add(ModItems.OATHKEEPER);
-						entries.add(ModItems.OBLIVION);
-						entries.add(ModItems.LADY_LUCK);
-						entries.add(ModItems.DIVINE_ROSE);
-						entries.add(ModItems.DIAMOND_DUST);
-						entries.add(ModItems.ONE_WINGED_ANGEL);
-						entries.add(ModItems.ULTIMA_WEAPON);
-						entries.add(ModItems.KINGDOM_KEY_DARKSIDE);
-						entries.add(ModItems.SOUL_EATER);
 					})
 					.build());
 	
