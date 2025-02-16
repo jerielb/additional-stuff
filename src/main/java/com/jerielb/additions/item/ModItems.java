@@ -2,8 +2,6 @@ package com.jerielb.additions.item;
 
 import com.jerielb.additions.Additions;
 import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ToolMaterials;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
