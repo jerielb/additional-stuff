@@ -1,32 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "additions",
+	"id": "additional_stuff",
 	"version": "${version}",
-	"name": "additions",
-	"description": "Just some Additions to Minecraft",
+	"name": "additional_stuff",
+	"description": "Just some Additional Stuff to Minecraft",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/jerielb/additions"
+		"sources": "https://github.com/jerielb/additional_stuff"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/additions/icon.png",
+	"icon": "assets/additional_stuff/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.jerielb.additions.Additions"
+			"com.jerielb.additional_stuff.AdditionalStuff"
 		],
 		"client": [
-			"com.jerielb.additions.AdditionsClient"
+			"com.jerielb.additional_stuff.AdditionalStuffClient"
 		],
 		"fabric-datagen": [
-			"com.jerielb.additions.AdditionsDataGenerator"
+			"com.jerielb.additional_stuff.AdditionalStuffDataGenerator"
 		]
 	},
 	"mixins": [
-		"additions.mixins.json"
+		"additional_stuff.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.5",
